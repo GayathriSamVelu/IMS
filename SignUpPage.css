@@ -1,0 +1,91 @@
+.signup-page {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url('https://img.freepik.com/free-photo/cyber-monday-retail-sales_23-2148688493.jpg?w=900&t=st=1701104151~exp=1701104751~hmac=a404618483edf31d769a3eb03da371609f4f22ec946acd1ceedda50dd4f38354');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+    position: relative;
+}
+  
+  .signup-container {
+      height: 90%;
+   background: #ffffff6d;
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-right: 600px;
+    max-width: 300px; 
+    width: 70%; 
+    max-height: 400px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  p a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  .input-error {
+    border-color: #e74c3c !important; /* Change border color on error */
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .log{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+  }

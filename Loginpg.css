@@ -1,0 +1,100 @@
+/* Loginpg.css */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?w=900&t=st=1701101211~exp=1701101811~hmac=3990102b6263b20934df1fa814fd30f60109561fc78d267e228eca3a5c1394ec');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .login-container {
+    background: rgba(255, 255, 255, 0.429);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 300px; 
+    width: 80%; 
+    max-height: 300px;
+    height: 60%;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    color: #020202;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #f6f2f2;
+  }
+  
+  .signup-link a {
+    color: #2a0daa;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  .input-effect {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-bottom-color 0.4s ease;
+  }
+  
+  .input-effect:focus {
+    outline: none;
+    border-bottom-color: #3498db;
+  }
+  
+  .login-success {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
